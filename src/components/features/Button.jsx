@@ -14,7 +14,7 @@ const Button = () => {
     navigate("/explore");
   }
   return (
-    <div className="flex justify-center items-center mt-72 fixed ">
+    <div className="flex justify-center items-center mt-20 relative">
       <motion.div
         variants={variants}
         initial="hidden"

@@ -1,17 +1,17 @@
 /* Import Tailwind CSS */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* In your global CSS file (e.g., styles.css) */
 
 /* Add to your global CSS file */
-html, body {
+html,
+body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
 
-html::-webkit-scrollbar, 
+html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none; /* Chrome, Safari and Opera */
 }

@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+     
       boxShadow: {
         glow: '0 0 10px #00ff00, 0 0 20px #00ff00',
         redglow: '0 4px 10px #DC143C',  // Customize glow color

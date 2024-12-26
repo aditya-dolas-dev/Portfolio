@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useRef } from "react";
+
 import { motion } from "framer-motion";
 import { GrProjects, GrTechnology } from "react-icons/gr";
 import { useNavigate, useLocation } from "react-router-dom";
